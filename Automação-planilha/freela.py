@@ -1,23 +1,3 @@
-# import pyautogui as pag
-# import openpyxl 
-# import pyperclip
-# from time import sleep
-# pag.PAUSE = 10
-# print(pag.position())
-# # Point(x=572, y=548)
-# # Point(x=565, y=677)
-# # Point(x=563, y=801)
-# # Point(x=538, y=913)
-# # Point(x=586, y=995)
-# # 5 colunas
-# workbook = openpyxl.load_workbook('dados.xlsx')
-# sheet_produtos = workbook['Produtos']
-# for i in sheet_produtos.iter_rows(min_row=2):
-#     cliente = (i[0].value) 
-#     produto = (i[1].value) 
-#     quantidade = (i[2].value) 
-#     categoria = (i[3].value) 
-#     data_hora = (i[4].value)
 import pyautogui as pag
 import openpyxl 
 import pyperclip
